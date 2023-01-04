@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    background: rgb(27, 27, 27);
+
+}
+
+
+.header{
+    background: rgb(43, 43, 43);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.header a{
+    color:orangered;
+    border-radius: 10px;
+    background: white;
+    padding: 4px 10px;
+    float: right;
+    text-decoration: none;
+}
+
+.header h2{
+    float: left;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.listar-produtos{
+    margin-top: 40px;
+}
+
+
+
+.box-single-food{
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+    
+}
+
+.box-single-food img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+}
+
+.box-single-food h2{
+    color: aliceblue;
+}
+.box-single.food p{
+    margin-top: 140px;
+    color: rgb(197, 195, 195);
+}
+
+.box-single-food a{
+    background: #e71915;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    background: rgb(34, 34, 34);
+    color:rgb(243, 243, 243);
+}
+
+table img{
+    max-width: 120px;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+
+table td{
+    border: 1px solid #ccc;
+}
+
+#preco{
+    text-align: center;
+
+}
+
+.card{
+    width: 90%;
+    min-height: 360px;
+    background: rgb(34, 34, 34);
+    border-radius: 25px;
+}
+
+.card p{
+    color: rgb(243, 243, 243);
+    margin: 20px 0;
+}
+
+p i{
+    font-size: 20px;
+    color: rgb(17, 204, 10);
+}
+
+
+#total{
+    padding: 6px 8px;
+    background: rgb(65, 65, 65);
+    color: rgb(218, 218, 218);
+    border-radius: 10px;
+    text-align: center;
+}
+
+form select{
+    background:#3a3a3a;
+    width: 60%;
+    height: 38px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 0 15px;
+    outline: none;
+    transition: border-color 0.2s ease-in;
+    cursor: pointer;
+}
+
+form input{
+    margin: 2px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 0 15px;
+    outline: none;
+    transition: border-color 0.2s ease-in;
+    cursor: pointer;
+    background: rgb(19, 128, 19);
+
+}
+
+form input[type=text]{
+    background:#3a3a3a;
+    width: 30%;
+    height: 38px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 0 15px;
+    outline: none;
+    transition: border-color 0.2s ease-in;
+    cursor: text;
+    margin: 4px;
+}
+
+.header2{
+    background: rgb(43, 43, 43);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.header2 h2{
+    margin-right: 5px;
+    
+}
+
+.dinheiro p{
+    margin-top: 6px;
+    color: white;
+}
+
+.dinheiro{
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+#home{
+    margin-left: 20rem;
+    color:orangered;
+    border-radius: 10px;
+    background: white;
+    padding: 4px 10px;
+    float: right;
+    text-decoration: none;
+}
+
+.resetar a{
+    margin-top: 20px;
+    color:rgb(255, 250, 250);
+    border-radius: 10px;
+    padding: 4px 10px;
+    background: #07a107;
+    text-decoration: none;
+}
+
+#total2{
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
